@@ -18,6 +18,7 @@ void FillArray(int[,] arr)
          }
      }
  }
+
 void PrintArray(int[,] arr)
  {
      for (int m = 0; m < arr.GetLength(0); m++)
@@ -29,6 +30,7 @@ void PrintArray(int[,] arr)
          Console.WriteLine();
      }
  }
+ 
 void SortArray(int[,] arr)
  {
      for (int m = 0; m < arr.GetLength(0); m++)
